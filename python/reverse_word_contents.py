@@ -22,7 +22,3 @@ def sReverse(s):
 				last = True
 	
 	s = newS
-
-x = " i     am bob and  not    sallay  "
-sReverse(x)
-print x
