@@ -7,5 +7,5 @@ def bubble_sort(a):
 		sortHuh = True
 		for i in range (0,length-1):				
 			if (a[i] > a[i+1]):						#If current is larger than next
-				a[i], a[i+1] = a[i+1], a[i]		#Swap
+				a[i], a[i+1] = a[i+1], a[i]				#Swap
 				sortHuh = False
