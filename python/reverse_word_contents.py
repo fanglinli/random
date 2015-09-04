@@ -1,5 +1,5 @@
-# Purpose: reads in a string and reverses it (white-space delimited) 
-# @return: String 
+# Purpose: reads in a string and reverses it (white-space delimited)
+# @return: String
 def sReverse(s):
 	length = len(s)
 	e = length
@@ -20,5 +20,5 @@ def sReverse(s):
 				b = i - 1
 				newS += s[b:e]	 	#add contents of previous whitespace-delimited string
 				last = True
-	
+
 	s = newS
