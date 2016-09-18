@@ -5,4 +5,3 @@ template <typename T> void my_swap(T& a, T& b) {
     b ^= a;
     a ^= b;
 }
-
